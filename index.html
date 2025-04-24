@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kumar Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background-color: #4a2d1f;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header img {
+           
+            width: 150px;        /* Set your desired size */
+            height: 150px;
+            /* object-fit: cover;   /* Ensures the image covers the box without distortion */
+            border-radius: 8px;  /* Optional: slightly rounded corners */
+            overflow: hidden; */
+        }
+        .section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #843c0c;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        /* New CSS for displaying Technical and Soft Skills side by side */
+        .card .skills-container {
+            display: flex;
+            justify-content: space-between; /* Space between the two sections */
+        }
+
+        .card .skills-container > div {
+            width: 48%; /* Adjust the width of each section */
+        }
+
+        .card .skills-container ul {
+            padding-left: 20px;
+        }
+
+        .card .skills-container h3 {
+            margin-top: 0;
+        }
+
+        .contact {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .contact h2 {
+            color: #4a2d1f;
+            margin-bottom: 15px;
+        }
+
+        .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact ul li {
+            margin-bottom: 10px;
+        }
+
+        .contact ul li a {
+            text-decoration: none;
+            color: #843c0c;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .contact ul li a:hover {
+            color: #4a2d1f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="profile.jpg" alt=" shani Kumar">
+        <h1>Shani Kumar</h1>
+        <p>Student at Lamrin Tech Skills University specializing in Artificial Intelligence. Passionate about Cybersecurity, Machine Learning, and building scalable solutions. Currently exploring Salesforce and App Development.</p>
+    </div>
+
+    <div class="section">
+        <div class="card">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div>
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Python, Java</li>
+                        <li>NumPy, Pandas, Matplotlib</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Machine Learning Algorithms (Linear Regression)</li>
+                        <li>Frontend Web Development</li>
+                        <li>Data Structures & Algorithms</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Creativity</li>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Complete Python Bootcamp - Udemy</li>
+                <li>Front-End Web Development - Coursera</li>
+                <li>Machine Learning Basics - Udemy</li>
+                <li>Blockch - Udemy</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Winner - College Coding Contest 2024</li>
+                <li>Certificate of Excellence - Web Development Workshop</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Extra-curricular Activities</h2>
+            <ul>
+                <li>Volunteer - College Tech Fest 2023 and National Kabaddi game</li>
+                <li>Member - Coding Club</li>
+                <li>Sport Club - AIU player in Wing Chun</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Education</h2>
+            <p><strong>Lamrin Tech Skills University, Punjab</strong></p>
+            <p>GPA: 7.8</p>
+
+            <h3>Awards & Honors</h3>
+            <ul>
+                <li>Gold Medalist in Wushu (Wing Chun) - AIU, Jammu 2023</li>
+            </ul>
+
+            <h3>Projects</h3>
+            <ul>
+                <li><strong>Green Market:</strong> Platform connecting farmers with buyers for crop trading.</li>
+                <li><strong>AI Chatbot:</strong> Developed chatbot for user query handling using NLP.</li>
+                <li><strong>Weather Prediction App:</strong> Built smart weather prediction model using Machine Learning.</li>
+                <li><strong>Shopping Website:</strong> Designed a fully functional e-commerce website.</li>
+                <li><strong>Face Detector:</strong> Built a face detection model using Machine Learning techniques.</li>
+            </ul>
+
+            <div class="section contact">
+                <h2>Connect with Me</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/-kumar-2b7809312?originalSubdomain=in" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li>
+                    <li><a href="https://t.me/your-username" target="_blank">Telegram</a></li>
+                    <li><a href="https://photos.app.goo.gl/bbwS2yu7TBFu45z47" target="_blank">View My Certificates</a></li>
+                    <a href="logging.html" target="_blank">login-form</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
